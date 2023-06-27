@@ -22,7 +22,7 @@ const AddAppointment = () => {
               type="text"
               name="ownerName"
               id="ownerName"
-              className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+              className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -39,7 +39,7 @@ const AddAppointment = () => {
               type="text"
               name="petName"
               id="petName"
-              className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+              className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -56,7 +56,7 @@ const AddAppointment = () => {
               type="date"
               name="aptDate"
               id="aptDate"
-              className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+              className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -73,7 +73,7 @@ const AddAppointment = () => {
               type="time"
               name="aptTime"
               id="aptTime"
-              className="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+              className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
             />
           </div>
         </div>
@@ -90,7 +90,7 @@ const AddAppointment = () => {
               id="aptNotes"
               name="aptNotes"
               rows="3"
-              className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
+              className="px-4 py-2 shadow-md focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
               placeholder="Detailed comments about the condition"
             ></textarea>
           </div>
@@ -100,7 +100,7 @@ const AddAppointment = () => {
           <div className="flex justify-end">
             <button
               type="submit"
-              className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-400 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
+              className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-md text-sm font-medium rounded-md text-white bg-blue-400 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
             >
               Submit
             </button>
