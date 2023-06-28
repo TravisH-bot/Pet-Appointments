@@ -58,7 +58,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
                   setFormData({ ...formData, ownerName: event.target.value });
                 }}
                 value={formData.ownerName}
-                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
               />
             </div>
           </div>
@@ -79,7 +79,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
                   setFormData({ ...formData, petName: event.target.value });
                 }}
                 value={formData.petName}
-                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
               />
             </div>
           </div>
@@ -100,7 +100,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
                   setFormData({ ...formData, aptDate: event.target.value });
                 }}
                 value={formData.aptDate}
-                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
               />
             </div>
           </div>
@@ -121,7 +121,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
                   setFormData({ ...formData, aptTime: event.target.value });
                 }}
                 value={formData.aptTime}
-                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md"
+                className="px-4 py-2 max-w-lg block w-full shadow-md focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border border-gray-300 rounded-md"
               />
             </div>
           </div>
@@ -142,7 +142,7 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
                   setFormData({ ...formData, aptNotes: event.target.value });
                 }}
                 value={formData.aptNotes}
-                className="px-4 py-2 shadow-md focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
+                className="px-4 py-2 shadow-md focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
                 placeholder="Detailed comments about the condition"
               ></textarea>
             </div>

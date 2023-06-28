@@ -86,7 +86,7 @@ const Search = ({
           onChange={(event) => {
             onQueryChange(event.target.value);
           }}
-          className="pl-8 px-4 py-2 shadow-md rounded-md focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-500"
+          className="pl-8 px-4 py-2 shadow-md rounded-md focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border border-gray-300"
           placeholder="Search"
         />
         <div className="absolute inset-y-0 right-0 flex items-center">
