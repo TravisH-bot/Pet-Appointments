@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pet-Appointments/static/css/main.e38af9f4.css",
+    "main.js": "/Pet-Appointments/static/js/main.2b6eda9e.js",
+    "index.html": "/Pet-Appointments/index.html",
+    "main.e38af9f4.css.map": "/Pet-Appointments/static/css/main.e38af9f4.css.map",
+    "main.2b6eda9e.js.map": "/Pet-Appointments/static/js/main.2b6eda9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e38af9f4.css",
+    "static/js/main.2b6eda9e.js"
+  ]
+}
