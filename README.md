@@ -1,4 +1,4 @@
-# Pet Appointment Scheduler
+# Pet-Appointments
 
 ## Description
 A basic appointment scheduler for pet veterinarians to set up appointments for owners when they call in to set one up. Users will fill in the fields for the owners name, pet name, apt date, apt time, and appointment notes. Users can search, sort, add and delete appointments.
@@ -40,5 +40,3 @@ npm test
 
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at travishackbarth@gmail.com. You can find more of my work at TravisH-bot (https://github.com/TravisH-bot).
-
-# Pet-Appointments
