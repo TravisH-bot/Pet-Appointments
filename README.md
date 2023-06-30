@@ -25,6 +25,8 @@ npm i
 ## Usage
 The project uses TailwindCSS for styling and React Icons. Users can click the 'Add Appointment' button at the top to expand the option to add an appointment. Once submitted, they can sort the list by Pet Name, Owner Name, Date, and choose ascending or descending order.
 
+![pet-scheduler-app](https://github.com/TravisH-bot/react-interface/assets/79767820/5b5f0fc4-2df3-457f-8951-14fd90d5ee2a)
+
 ## Contributing
 Raise an issue or email directly.
 
